@@ -21,7 +21,7 @@ filtered_columns = ['1', '3']  # Replace with your column names
 append_or_create = input("Do you want to append the data to the existing sheet or create a new sheet? (a/c): ")
 
 # If the user chooses to append the data to the existing sheet, append the data
-# If the user chooses to append the data to the existing sheet, append the data
+# If the user chooses to append the data to the existing sheet, append the dat
 if append_or_create == "a":
     data_to_append = []
     for chunk in pd.read_csv('SampleCSVFile_119kb.csv', chunksize=chunksize):
